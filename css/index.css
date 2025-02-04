@@ -1,0 +1,93 @@
+@import url(./fonts.css);
+
+:root {
+  --white-pure: #FFF;
+  --gray-opaque: #D8D8D8;
+  --peach-fuzz: #FEBE97;
+  --peach-fuzz-opaque: #D49D84;
+  --dark-lighter: #0E0E0C;
+  --name-h1-light-fit: 88px/75% 'Poppins Light';
+  --name-h1-bold-fit: 92px/75% 'Poppins Bold';
+  --title-h2-bold: 34px 'Poppins Bold';
+  --subtitle-h3-bold: 24px 'Poppins Bold';
+  --carreer-p-light-fit: 38px/75% 'Poppins Light';
+  --carreer-p-semibold-fit: 38px/75% 'Poppins SemiBold';
+  --text-p-light: 24px 'Poppins Light';
+  --text-p-light-fit: 24px/75% 'Poppins Light';
+  --courses-h4-bold-32: 24px/32px 'Poppins Bold';
+  --subtitle-p-light: 24px 'Poppins Light';
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: 'Poppins Light', Arial, Helvetica, sans-serif;
+  font: var(--text-p-light);
+}
+
+hr {
+  background-color: var(--dark-lighter);
+}
+
+.title-h2-b {
+  font: var(--title-h2-bold);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.subtitle-h3-b {
+  font: var(--subtitle-h3-bold);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.courses-h4-b-32 {
+  font: var(--courses-h4-bold-32);
+}
+
+.subtitle-p-l {
+  font: var(--subtitle-p-light);
+  letter-spacing: 0.12em;
+}
+
+.text-p-l-f {
+  font: var(--text-p-light-fit);
+}
+
+.name1 {
+  font: var(--name-h1-light-fit);
+  text-align: end;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--white-pure);
+}
+
+.name2 {
+  font: var(--name-h1-bold-fit);
+  text-align: end;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--white-pure);
+}
+
+.carrer1 {
+  font: var(--carreer-p-light-fit);
+  text-align: end;
+  letter-spacing: 0.1em;
+  color: var(--white-pure);
+}
+
+.carrer2 {
+  font: var(--carreer-p-semibold-fit);
+  text-align: end;
+  letter-spacing: 0.1em;
+  color: var(--white-pure);
+}
+
+@media (max-width: 320px) {
+
+}
